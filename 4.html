@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Table Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white h-screen">
+    <div class="container mx-auto max-w-[1440px] p-4 flex flex-col h-screen">
+        <div class="flex justify-around space-x-2 mb-4">
+            <button class="px-4 py-2">차량관제시스템</button>
+            <button class="bg-[#0085FF] text-white px-4 py-2">종합상황 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송소통 장애현황</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">정비시간대별 접수물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">집중국별 도착예정 물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운행사항 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송현황</button>
+        </div>
+
+        <div class="flex text-[14px] justify-between items-start w-full">
+
+
+            <div class="flex justify-between w-full mt-[30px] mb-[30px]">
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <span>관할청</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>총청청</option>
+                        </select>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span>총괄국</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>우체국</option>
+                        </select>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span>접수일시</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>년도</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>월</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>일</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div>
+                    <button class="bg-[#0085FF] text-white px-4 py-2">초기화</button>
+                    <button class="bg-[#0085FF] text-white px-4 py-2">조회</button>
+                </div>
+            </div>
+
+
+            <div>
+
+                
+            </div>
+
+
+           
+        </div>
+        <table class="table-auto border-collapse border">
+            <tr>
+                <td class="border bg-gray-200 text-center">우편물 구분</td>
+                <td class="border bg-gray-200 text-center">-9:00</td>
+                <td class="border bg-gray-200 text-center">09:00~10:00</td>
+                <td class="border bg-gray-200 text-center">10:00~11:00</td>
+                <td class="border bg-gray-200 text-center">11:00~12:00</td>
+                <td class="border bg-gray-200 text-center">12:00~13:00</td>
+                <td class="border bg-gray-200 text-center">13:00~14:00</td>
+                <td class="border bg-gray-200 text-center">14:00~15:00</td>
+                <td class="border bg-gray-200 text-center">15:00~16:00</td>
+                <td class="border bg-gray-200 text-center">계</td>
+            </tr>
+            <tr>
+                <td class="border text-center">일반소포</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+            </tr>
+            <tr>
+                <td class="border text-center">청구소포</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+            </tr>
+            <tr>
+                <td class="border text-center">국내특급소포</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+            </tr>
+            <tr>
+                <td class="border text-center">방문소포</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+            </tr>
+            <tr>
+                <td class="border text-center">국제특고</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+            </tr>
+        </table>
+        <table class="mt-auto table-auto border-collapse border">
+            <tr>
+                <td class="border text-center w-[120px]">합계</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">0</td>
+                <td class="border text-center w-[120px]">232344</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

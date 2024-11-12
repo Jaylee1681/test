@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Table Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white h-screen">
+    <div class="container mx-auto max-w-[1440px] p-4 flex flex-col h-screen">
+        <div class="flex justify-around space-x-2 mb-4">
+            <button class="px-4 py-2">차량관제시스템</button>
+            <button class="bg-[#0085FF] text-white px-4 py-2">종합상황 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송소통 장애현황</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">정비시간대별 접수물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">집중국별 도착예정 물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운행사항 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송현황</button>
+        </div>
+
+        <div class="flex text-[14px] justify-between items-start w-full">
+
+
+            <div class="flex justify-between w-full mb-[30px] mt-[30px]">
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <span>우정청</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>총청청</option>
+                        </select>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span>집중국</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>전체</option>
+                        </select>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span>망구분</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>전체</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div>
+                    <button class="bg-[#0085FF] text-white px-4 py-2">초기화</button>
+                    <button class="bg-[#0085FF] text-white px-4 py-2">조회</button>
+                </div>
+            </div>
+
+
+            <div>
+
+                
+            </div>
+
+
+           
+        </div>
+        <table class="table-auto border-collapse border">
+            <tr>
+                <td class="border bg-gray-200 text-center">체크박스</td>
+                <td class="border bg-gray-200 text-center">No</td>
+                <td class="border bg-gray-200 text-center">구분</td>
+                <td class="border bg-gray-200 text-center">차량번호</td>
+                <td class="border bg-gray-200 text-center">핸드폰번호</td>
+                <td class="border bg-gray-200 text-center">출발국</td>
+                <td class="border bg-gray-200 text-center">도착국</td>
+                <td class="border bg-gray-200 text-center">지연분</td>
+                <td class="border bg-gray-200 text-center">출발예정시간</td>
+                <td class="border bg-gray-200 text-center">도착예정시간</td>
+                <td class="border bg-gray-200 text-center">최종지연시간</td>
+                <td class="border bg-gray-200 text-center">운송일</td>
+                <td class="border bg-gray-200 text-center">운전자명</td>
+                <td class="border bg-gray-200 text-center">출도착처리</td>
+                <td class="border bg-gray-200 text-center">운송확인서번호</td>
+            </tr>
+            <tr>
+                <td class="border text-center"></td>
+                <td class="border text-center">1</td>
+                <td class="border text-center">도착</td>
+                <td class="border text-center">부산94 아 1234</td>
+                <td class="border text-center">010-333-2212</td>
+                <td class="border text-center">제336 군사우편국</td>
+                <td class="border text-center">삼천포우체국</td>
+                <td class="border text-center">23:54</td>
+                <td class="border text-center">14:35</td>
+                <td class="border text-center">15:22</td>
+                <td class="border text-center">00:22</td>
+                <td class="border text-center">9월26일</td>
+                <td class="border text-center">김민수</td>
+                <td class="border text-center">N</td>
+                <td class="border text-center">C232412121212</td>
+            </tr>
+            <tr>
+                <td class="border text-center"></td>
+                <td class="border text-center">1</td>
+                <td class="border text-center">도착</td>
+                <td class="border text-center">부산94 아 1234</td>
+                <td class="border text-center">010-333-2212</td>
+                <td class="border text-center">제336 군사우편국</td>
+                <td class="border text-center">삼천포우체국</td>
+                <td class="border text-center">23:54</td>
+                <td class="border text-center">14:35</td>
+                <td class="border text-center">15:22</td>
+                <td class="border text-center">00:22</td>
+                <td class="border text-center">9월26일</td>
+                <td class="border text-center">김민수</td>
+                <td class="border text-center">N</td>
+                <td class="border text-center">C232412121212</td>
+            </tr>
+            <tr>
+                <td class="border text-center"></td>
+                <td class="border text-center">1</td>
+                <td class="border text-center">도착</td>
+                <td class="border text-center">부산94 아 1234</td>
+                <td class="border text-center">010-333-2212</td>
+                <td class="border text-center">제336 군사우편국</td>
+                <td class="border text-center">삼천포우체국</td>
+                <td class="border text-center">23:54</td>
+                <td class="border text-center">14:35</td>
+                <td class="border text-center">15:22</td>
+                <td class="border text-center">00:22</td>
+                <td class="border text-center">9월26일</td>
+                <td class="border text-center">김민수</td>
+                <td class="border text-center">N</td>
+                <td class="border text-center">C232412121212</td>
+            </tr>
+            <tr>
+                <td class="border text-center"></td>
+                <td class="border text-center">1</td>
+                <td class="border text-center">도착</td>
+                <td class="border text-center">부산94 아 1234</td>
+                <td class="border text-center">010-333-2212</td>
+                <td class="border text-center">제336 군사우편국</td>
+                <td class="border text-center">삼천포우체국</td>
+                <td class="border text-center">23:54</td>
+                <td class="border text-center">14:35</td>
+                <td class="border text-center">15:22</td>
+                <td class="border text-center">00:22</td>
+                <td class="border text-center">9월26일</td>
+                <td class="border text-center">김민수</td>
+                <td class="border text-center">N</td>
+                <td class="border text-center">C232412121212</td>
+            </tr>
+            <!-- Repeat similar rows as needed -->
+        </table>
+        <div class="self-end mt-[30px]">
+            <button class="bg-[#0085FF] text-white px-4 py-2">SMS 전송</button>
+            <button class="bg-[#0085FF] text-white px-4 py-2">다운로드</button>
+        </div>
+    </div>
+</body>
+</html>

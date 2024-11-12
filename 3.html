@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Table Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white">
+    <div class="container mx-auto max-w-[1440px] p-4">
+        <div class="flex justify-around space-x-2 mb-4">
+            <button class="px-4 py-2">차량관제시스템</button>
+            <button class="bg-[#0085FF] text-white px-4 py-2">종합상황 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송소통 장애현황</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">정비시간대별 접수물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">집중국별 도착예정 물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운행사항 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송현황</button>
+        </div>
+
+        <div class="flex text-[14px] justify-between items-start">
+
+            <div>
+                <div class="flex items-center space-x-2 mb-[30px] mt-[30px]">
+                    <span>발생일자</span>
+                    <div class="flex space-x-2">
+                        <select class="border rounded px-2 py-1">
+                            <option>년도</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>월</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>일</option>
+                        </select>
+                    </div>
+                    <span>~</span>
+                    <div class="flex space-x-2">
+                        <select class="border rounded px-2 py-1">
+                            <option>년도</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>월</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>일</option>
+                        </select>
+                    </div>
+
+                    
+                </div>
+
+                
+
+
+                <table class="table-auto border-collapse border">
+                    <tbody>
+                        <tr>
+                            <td rowspan="3" class="text-center border  w-[100px]">NO</td>
+                            <td rowspan="3" class="text-center border  w-[100px]">발생일자</td>
+                            <td colspan="4" class="text-center border ">운송구간</td>
+                            <td rowspan="3" class="text-center border  w-[100px]">장애유형</td>
+                            <td rowspan="3" class="text-center border  w-[100px]">등록국</td>
+                            <td rowspan="3" class="text-center border  w-[100px]">완료</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="text-center border  w-[100px]">출발국</td>
+                            <td colspan="3" class="text-center border ">도착국</td>
+                           
+                        </tr>
+                        <tr>
+                            <td class="text-center border  w-[100px]">관할청</td>
+                            <td class="text-center border  w-[100px]">총괄국</td>
+                            <td class="text-center border  w-[100px]">도착국</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                            <td class="text-center border">1</td>
+                        </tr>
+                    </tbody>
+                       
+                
+                </table>
+            </div>
+        <div class="flex flex-col">
+
+            <div class="mb-[30px] mt-[30px]">
+                <button class="bg-[#0085FF] text-white px-4 py-2">초기화</button>
+                <button class="bg-[#0085FF] text-white px-4 py-2">조회</button>
+            </div>
+            
+            <table class="table-auto border-collapse border mb-[30px]">
+                <tr>
+                    <td class="border p-1">등록국</td>
+                    <td class="border p-1">부평물류센터</td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1">등록자</td>
+                    <td class="border p-1">김기홍</td>
+                </tr>
+                <tr>
+                    <td class="border p-1">운송구간</td>
+                    <td class="border p-1">부평물류센터</td>
+                    <td class="border p-1">검색 ~ 인천풍도 검색</td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1"></td>
+                </tr>
+                <tr>
+                    <td class="border p-1">운송선로</td>
+                    <td class="border p-1">선편</td>
+                    <td class="border p-1">장애유형</td>
+                    <td class="border p-1">망구분</td>
+                    <td class="border p-1">우체국명</td>
+                </tr>
+                <tr>
+                    <td class="border p-1">발생일시</td>
+                    <td class="border p-1">2024-09-21</td>
+                    <td class="border p-1">08:10</td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1"></td>
+                </tr>
+                <tr>
+                    <td class="border p-1">완료예정</td>
+                    <td class="border p-1">2024-09-21</td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1">장애유형</td>
+                    <td class="border p-1">기상악화</td>
+                    <td class="border p-1"></td>
+                </tr>
+                <tr>
+                    <td class="border p-1">완료여부</td>
+                    <td class="border p-1">예</td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1">완료일시</td>
+                    <td class="border p-1">2024-09-21</td>
+                    <td class="border p-1">08:10</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="border p-1">배송장애 및 <br>우편및지역</td>
+                    <td class="border p-1"><input type="checkbox">익일특급</td>
+                    <td class="border p-1">장애우편번호</td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1"></td>
+                </tr>
+                <tr>
+                    <td class="border p-1"></td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1">등록국</td>
+                    <td class="border p-1"></td>
+                    <td class="border p-1"></td>
+                </tr>
+            </table>
+
+
+            <div class="mb-[30px]">
+                <button class="bg-[#0085FF] text-white px-4 py-2">장애내역</button>
+                <button class="bg-[#0085FF] text-white px-4 py-2">장애통수</button>
+            </div>
+
+            <table class="table-auto border-collapse border">
+                <tbody>
+                    <tr>
+                        <td class="border p-2">장애내용</td>
+                        <td class="border p-2">기상악화로 인한 정기선편 결항</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">장애지역</td>
+                        <td class="border p-2">부평물류센터 -> 덕진우체국</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">조치내용</td>
+                        <td class="border p-2">부패성 우편물 냉장보관 및 출항대비 선적대기</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">향후내용</td>
+                        <td class="border p-2">최선현 연결예정</td>
+                    </tr>
+                </tbody>
+            </table>
+             
+        </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Table Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white">
+    <div class="container mx-auto max-w-[1440px] p-4">
+        <div class="flex justify-around space-x-2 mb-4">
+            <button class="px-4 py-2">차량관제시스템</button>
+            <button class="bg-[#0085FF] text-white px-4 py-2">종합상황 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송소통 장애현황</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">정비시간대별 접수물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">집중국별 도착예정 물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운행사항 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송현황</button>
+        </div>
+
+        <div class="flex text-[14px] justify-between items-start  mt-[30px]">
+
+            <table class="table-auto border-collapse ">
+                <tr>
+                  <td rowspan="2" class="text-center border align-middle">접수불량</td>
+                  <td class="text-center border">당일</td>
+                  <td class="text-center border">12345</td>
+                </tr>
+                <tr>
+                  <td class="text-center border">기준일</td>
+                  <td class="text-center border">12345</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" class=" text-center border align-middle">배달불량</td>
+                  <td class="text-center border">당일</td>
+                  <td class="text-center border">12345</td>
+                </tr>
+                <tr>
+                  <td class="text-center border">기준일</td>
+                  <td class="text-center border">12345</td>
+                </tr>
+              </table>
+        <div class="flex flex-col">
+
+            
+            
+
+
+              <table class="table-auto border-collapse ">
+                <tr>
+                  <td rowspan="5"  class="text-center border">접수불량</td>
+                  <td colspan="2" class="text-center border">구분</td>
+                  <td class="text-center border">당일</td>
+                  <td class="text-center border">기준일</td>
+                  <td class="text-center border">종감</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="text-center border">국내소포</td>
+                    <td  class="text-center border">일반</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                  </tr>
+                <tr>
+                    <td  class="text-center border">등기</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center border">국제우편</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center border">합계</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                    <td class="text-center border">종감</td>
+                </tr>
+              </table>
+
+
+              <table>
+                <tr>
+                    <td rowspan="7" class="text-center border">배달물량</td>
+                    <td colspan="2" rowspan="2" class="text-center border">구분</td>
+                    <td class="text-center border">기준일</td>
+                    <td colspan="3" class="text-center border">당일</td>
+                    <td class="text-center border">익일</td>
+                </tr>
+                <tr>
+                    <td class="text-center border">배달완료</td>
+                    <td class="text-center border">배달예정</td>
+                    <td class="text-center border">진행중</td>
+                    <td class="text-center border">배달완료</td>
+                    <td class="text-center border">배달예정</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center border">일반소포</td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="text-center border">등기소포</td>
+                    <td class="text-center border">집배원</td>
+                    <td class="text-center border"></td>
+                    <td rowspan="3" class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td rowspan="3" class="text-center border"></td>
+                </tr>
+                <tr>
+                    <td class="text-center border">소포위탁</td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                </tr>
+                <tr>
+                    <td class="text-center border">계</td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="text-center border">합계</td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                    <td class="text-center border"></td>
+                </tr>
+              </table>
+
+              <table class="table-auto border-collapse border">
+                <tr>
+                    <td rowspan="4" class="text-center border">집중국물량</td>
+                    <td class="text-center border">구분</td>
+                    <td class="text-center border">상자</td>
+                    <td class="text-center border">파렛</td>
+                    <td class="text-center border">트롤리</td>
+                    <td class="text-center border">자루</td>
+                    <td class="text-center border">무용기</td>
+                </tr>
+                <tr>
+                    <td class="text-center border">도착예정</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                </tr>
+                <tr>
+                    <td class="text-center border">도착물량</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                </tr>
+                <tr>
+                    <td class="text-center border">발송물량</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                </tr>
+            </table>
+
+            <table class="table-auto border-collapse border">
+                <tr>
+                    <td rowspan="3" class="text-center border">운송상황</td>
+                    <td class="text-center border">구분</td>
+                    <td class="text-center border">기간망</td>
+                    <td class="text-center border">우체국망</td>
+                    <td class="text-center border">합계</td>
+                </tr>
+                <tr>
+                    <td class="text-center border">당일</td>
+                    <td class="text-center border">기간망</td>
+                    <td class="text-center border">우체국망</td>
+                    <td class="text-center border">합계</td>
+                </tr>
+                <tr>
+                    <td class="text-center border">전일</td>
+                    <td class="text-center border">기간망</td>
+                    <td class="text-center border">우체국망</td>
+                    <td class="text-center border">합계</td>
+                </tr>
+            </table>
+
+            <table class="table-auto border-collapse border">
+                <tr>
+                    <td rowspan="2" class="text-center border">자연상황</td>
+                    <td class="text-center border">발송</td>
+                    <td class="text-center border">도착</td>
+                    <td rowspan="2" class="text-center border">장애상황</td>
+                    <td class="text-center border">운송</td>
+                    <td class="text-center border">배달</td>
+                    <td class="text-center border">집중국</td>
+                    <td class="text-center border">안전사고</td>
+                </tr>
+                <tr>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                    <td class="text-center border">0</td>
+                 
+                </tr>
+            </table>
+        </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

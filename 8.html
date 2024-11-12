@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Table Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white h-screen">
+    <div class="container mx-auto max-w-[1440px] p-4 flex flex-col h-screen">
+        <div class="bg-blue-500 text-white py-1 w-[150px] flex justify-center items-center mb-[30px]">티퍼</div>
+
+
+        <div class="flex gap-[40px]">
+            <table class="table-auto border-collapse border w-1/2">
+                <tr>
+                    <td class="border bg-gray-200 w-1/4">센서이름</td>
+                    <td class="border bg-gray-200 w-1/4">SV</td>
+                    <td class="border bg-gray-200 w-1/4">허용오차</td>
+                    <td class="border bg-gray-200 w-1/4">PV</td>
+                </tr>
+                <tr>
+                    <td class="border">tipper_sensor1</td>
+                    <td class="border">2</td>
+                    <td class="border">1</td>
+                    <td class="border">-6</td>
+                </tr>
+                <tr>
+                    <td class="border">티퍼_센서2</td>
+                    <td class="border">6</td>
+                    <td class="border">1</td>
+                    <td class="border">34</td>
+                </tr>
+                <tr>
+                    <td class="border">티퍼_센서2</td>
+                    <td class="border">7.52</td>
+                    <td class="border">1</td>
+                    <td class="border">32</td>
+                </tr>
+            </table>
+
+            <table class="table-auto border-collapse border w-1/2">
+                <tr>
+                    <td class="border bg-gray-200">스위치 이름</td>
+                    <td class="border bg-gray-200">상태</td>
+                    <td class="border bg-gray-200">램프이름</td>
+                    <td class="border bg-gray-200">상태</td>
+                </tr>
+                <tr>
+                    <td class="border" >C_sw1</td>
+                    <td class="border" >꺼짐</td>
+                    <td class="border">CV_lamp1</td>
+                    <td class="border">위험</td>
+                </tr>
+                <tr>
+                    <td class="border">CV_lamp2</td>
+                    <td class="border">켜짐</td>
+                    <td class="border">CV_lamp2</td>
+                    <td class="border">정상</td>
+                </tr>
+                <tr>
+                    <td class="border"></td>
+                    <td class="border"></td>
+                    <td class="border">CV_lamp3</td>
+                    <td class="border">정상</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

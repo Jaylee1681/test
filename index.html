@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Table Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white">
+    <div class="container mx-auto max-w-[1440px] p-4">
+        <!-- Navigation -->
+        <div class="flex justify-around space-x-2 mb-4">
+            <button class="px-4 py-2">차량관제시스템</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">종합상황 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송소통 장애현황</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">정비시간대별 접수물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">집중국별 도착예정 물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운행사항 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송현황</button>
+        </div>
+
+        <!-- Map and Table -->
+        <div class="flex">
+            <!-- Map -->
+            <div class="w-1/2">
+                <img src="https://via.placeholder.com/720x400" alt="Map" class="w-full h-auto">
+            </div>
+
+            <!-- Table -->
+            <div class="w-1/2 overflow-x-auto">
+                <table class="min-w-full bg-white border text-sm">
+                    <thead class="bg-[#E5E5E5]">
+                        <tr>
+                            <th class="border">차량번호</th>
+                            <th class="border">발송국</th>
+                            <th class="border">운송원</th>
+                            <th class="border">운송상황</th>
+                            <th class="border">연락처</th>
+                            <th class="border">출발시간</th>
+                            <th class="border">도착예정시간</th>
+                            <th class="border">지역예정시간</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Repeat this row as needed -->
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            <tr>
+                                <td class="border">대전나1234</td>
+                                <td class="border">국제우편물류센터</td>
+                                <td class="border">운송원</td>
+                                <td class="border">정상</td>
+                                <td class="border">01020003000</td>
+                                <td class="border">2024-10-24 08:23:09</td>
+                                <td class="border">예정시간</td>
+                                <td class="border">예정시간</td>
+                            </tr>
+                            
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                        <tr>
+                            <td class="border">대전나1234</td>
+                            <td class="border">국제우편물류센터</td>
+                            <td class="border">운송원</td>
+                            <td class="border">정상</td>
+                            <td class="border">01020003000</td>
+                            <td class="border">2024-10-24 08:23:09</td>
+                            <td class="border">예정시간</td>
+                            <td class="border">예정시간</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

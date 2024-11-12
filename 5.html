@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Table Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white h-screen">
+    <div class="container mx-auto max-w-[1440px] p-4 flex flex-col h-screen">
+        <div class="flex justify-around space-x-2 mb-4">
+            <button class="px-4 py-2">차량관제시스템</button>
+            <button class="bg-[#0085FF] text-white px-4 py-2">종합상황 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송소통 장애현황</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">정비시간대별 접수물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">집중국별 도착예정 물량 조회</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운행사항 모니터링</button>
+            <button class="bg-[#dcdcdc] px-4 py-2">운송현황</button>
+        </div>
+
+        <div class="flex text-[14px] justify-between items-start w-full mb-[30px] mt-[30px]">
+
+
+            <div class="flex justify-between w-full">
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <span>관할청</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>총청청</option>
+                        </select>
+                    </div>
+                   
+                    <div class="flex items-center space-x-2">
+                        <span>접수일시</span>
+                        <select class="border rounded px-2 py-1">
+                            <option>년도</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>월</option>
+                        </select>
+                        <select class="border rounded px-2 py-1">
+                            <option>일</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div>
+                    <button class="bg-[#0085FF] text-white px-4 py-2">초기화</button>
+                    <button class="bg-[#0085FF] text-white px-4 py-2">조회</button>
+                </div>
+            </div>
+
+
+            <div>
+
+                
+            </div>
+
+
+           
+        </div>
+        <table class="table-auto border-collapse border">
+            <tr>
+                <td class="border text-center" rowspan="3">구분</td>
+                <td class="border text-center" rowspan="3">총괄국</td>
+                <td class="border text-center" rowspan="3">일반소포</td>
+                <td class="border text-center" colspan="5">등기소포</td>
+                <td class="border text-center" rowspan="3">국제특급</td>
+                <td class="border text-center" rowspan="3">총합계</td>
+            </tr>
+
+            <tr>
+                <td class="border text-center" rowspan="2">청구소포</td>
+                <td class="border text-center" colspan="3">방문소포</td>
+                <td class="border text-center" rowspan="2">합계(청구 + 방문)</td>
+            </tr>
+            <tr>
+                <td class="border text-center">인수완료물량 </td>
+                <td class="border text-center">접수물량</td>
+                <td class="border text-center">소계</td>
+            </tr>
+            <tr>
+
+                <td rowspan="2" class="border text-center">총괄국<br>(수용국)</td>
+                <td class="border text-center">대전우편편집국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+                <td class="border text-center">대전우편편집국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+                <td class="border text-center" rowspan="13">총괄국<br>(수용국)</td>
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+            <tr>
+
+               
+            
+                <td class="border text-center">OO 우체국</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                <td class="border text-center">0</td>
+                
+            </tr>
+
+            
+        </table>
+    </div>
+</body>
+</html>
